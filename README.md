@@ -1,5 +1,5 @@
 # Chess
-A chess Game
+A chess Game that has multyplayer, Single player with AI and local multyplayer(play and pass on)
 
 # assets: Dani Maccari
 Twitter: @dani_maccari
