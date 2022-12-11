@@ -10,7 +10,7 @@ class Board:
        self.height = height
               
        self.image = pygame.image.load("assets/board/board_plain_01.png")
-       self.rsimage = pygame.transform.scale(self.image, (self.width, self.width))
+       self.rsimage = pygame.transform.scale(self.image, (self.width, self.height))
     
     def drawBoard(self):
         self.win.blit(self.rsimage, (self.x, self.y))

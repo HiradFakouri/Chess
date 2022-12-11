@@ -1,5 +1,6 @@
 import pygame
 import board
+import pieces
 
 class Pages:
 
@@ -15,6 +16,7 @@ class Pages:
         self.clock = pygame.time.Clock()
 
         self.board = board.Board(self.win, 0, 50, 700, 700)
+        self.pieces = pieces.Pawn(self.win, 0, 0, 50, 50, "black")
 
     def localMultyplayer(self):
 
@@ -22,6 +24,7 @@ class Pages:
             self.win.fill(self.bgcolour)
             
             self.board.drawBoard()
+            self.pieces.drawPawn()
 
             pygame.display.update()
 
