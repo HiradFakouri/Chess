@@ -8,3 +8,6 @@ Twitter: @dani_maccari
 || discord: danli#0553
 || itch.io - @danimaccari -> https://dani-maccari.itch.io/
 
+# additional websites used:
+https://pinetools.com/
+
