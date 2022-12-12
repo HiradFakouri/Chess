@@ -11,7 +11,6 @@ class Pawn:
         self.colour = colour
 
         if self.colour.lower() == "black":
-            #not a tranparent image need to mmake it transparent for both black and white
             self.image = pygame.image.load("assets/pieces/blackPieces/bPawn.png")
             self.rsimage = pygame.transform.scale(self.image, (self.width, self.height))
         else:
